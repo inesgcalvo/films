@@ -205,3 +205,21 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ============================================================
+# Films project — datos personales (colección + credenciales)
+# ============================================================
+# CSVs con rutas de disco personal y contenido de colección
+data/*.csv
+data/logs/
+data/cache/
+
+# Reportes con títulos concretos y rutas personales
+reports/*.md
+
+# Variables de entorno (API keys)
+.env
+
+# macOS
+.DS_Store
+._*
